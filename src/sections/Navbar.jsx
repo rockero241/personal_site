@@ -46,6 +46,9 @@ const Navbar = () => {
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
+            aria-expanded={isOpen}
+            aria-controls="mobile-menu"
+            aria-label={isOpen ? "Close menu" : "Open menu"}
             className="flex cursor-pointer text-neutral-400
             hover:text-white focus:outline-none sm:hidden"
           >
