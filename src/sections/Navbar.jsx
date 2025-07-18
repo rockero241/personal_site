@@ -35,7 +35,7 @@ const Navbar = () => {
     <div className="fixed inset-x-0 z-20
     w-full backdrop-blur-lg
     bg-primary/40">
-      <div className="mx-auto c-space max-w-7-xl">
+      <div className="mx-auto c-space max-w-7xl">
         <div className="flex items-center justify-between py-2">
           <a 
           href="/"
@@ -53,7 +53,7 @@ const Navbar = () => {
             hover:text-white focus:outline-none sm:hidden"
           >
             <img 
-              src={isOpen ? "assets/menu.svg" : "assets/menu.svg"}
+              src={isOpen ? "assets/close.svg" : "assets/menu.svg"}
               className="w-6 h-6"
               alt="toggle" 
             />
@@ -65,6 +65,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <motion.div 
+          id="mobile-navigation"
           className="block overflow-hidden text-center sm:hidden"
           initial={{ opacity: 0, x: -10 }}  
           animate={{ opacity: 1, x: 0 }}
