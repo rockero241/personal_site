@@ -11,8 +11,6 @@ const App = () => {
     <section className="min-h-screen" />
     <section className="min-h-screen" />
     <section className="min-h-screen" />
-    <section className="min-h-screen" />
-    <section className="min-h-screen" />
     {/* about */}
     {/* projects */}
     {/* experience */}
