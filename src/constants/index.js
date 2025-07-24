@@ -33,7 +33,7 @@ export const myProjects = [
       "Added sections for offline maps, adventure scheduling, AR tech highlights, and mobile app call-to-actions.",
       "Focused on pixel-perfect styling and layout consistency across mobile, tablet, and desktop viewports.",
     ],
-    href: "https://github.com/rockero241/travel_app",
+    href: "https://lolivas.com/projects/travel-app/",
     logo: "",
     image: "/assets/projects/travel-ui-ux.png",
     tags: [
