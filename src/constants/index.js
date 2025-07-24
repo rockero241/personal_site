@@ -16,8 +16,8 @@ export const myProjects = [
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
       { id: 2, name: "FastAPI", path: "/assets/logos/fastapi.svg" },
-      { id: 3, name: "OpenAI", path: "/assets/logos/openai.svg" },
-      { id: 4, name: "Clerk", path: "/assets/logos/clerk.svg" },
+      { id: 3, name: "OpenAI", path: "/assets/logos/openai.png" },
+      { id: 4, name: "Clerk", path: "/assets/logos/clerk.png" },
       { id: 5, name: "SQLAlchemy", path: "/assets/logos/sqlalchemy.svg" },
     ],
   },
@@ -37,7 +37,7 @@ export const myProjects = [
     logo: "",
     image: "/assets/projects/travel-ui-ux.png",
     tags: [
-      { id: 1, name: "Next.js", path: "/assets/logos/nextjs.svg" },
+      { id: 1, name: "Next.js", path: "/assets/logos/nextjs.png" },
       { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
       { id: 3, name: "TypeScript", path: "/assets/logos/typescript.svg" },
     ],
@@ -59,8 +59,8 @@ export const myProjects = [
     image: "/assets/projects/ai-journal.png",
     tags: [
       { id: 1, name: "Python", path: "/assets/logos/python.svg" },
-      { id: 2, name: "Flask", path: "/assets/logos/flask.svg" },
-      { id: 3, name: "OpenAI", path: "/assets/logos/openai.svg" },
+      { id: 2, name: "Flask", path: "/assets/logos/flask.png" },
+      { id: 3, name: "OpenAI", path: "/assets/logos/openai.png" },
       { id: 4, name: "SQLite", path: "/assets/logos/sqlite.svg" },
     ],
   },
