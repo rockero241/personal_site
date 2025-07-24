@@ -36,12 +36,12 @@ const About = () => {
             </p>
             <Card
               style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GKE"
+              text="GCP"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="API Design & Integration"
+              text="REST/CRUD APIs"
               containerRef={grid2Container}
             />
             <Card
@@ -61,34 +61,32 @@ const About = () => {
             />
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/csharp-pink.png"
+              image="assets/logos/cplusplus.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/dotnet-pink.png"
+              image="assets/logos/python.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/blazor-pink.png"
+              image="assets/logos/java.png"
               containerRef={grid2Container}
             />
           </div>
         </div>
           {/* Grid 3 */}
-          <div className="grid-black-color grid-3">
-            <div className="grid-black-color grid-3">
-          <div className="z-10 w-[50%]">
-            <p className="headtext">Time Zone</p>
-            <p className="subtext">
-              Based in the US, open to remote work worldwide
-            </p>
-          </div>
-          <figure className="absolute left-[30%] top-[10%]">
-            
-          </figure>
-        </div>
+          <div className="grid-default-color grid-3">
+            <div className="z-10 w-[50%]">
+              <p className="headtext">Time Zone</p>
+              <p className="subtext">
+                Based in the US, open to remote work worldwide
+              </p>
+            </div>
+            <figure className="absolute inset-0">
+              <img src="assets/moon.png" className="w-full h-full object-cover opacity-20"></img>
+            </figure>
           </div>
           {/* Grid 4 */}
           <div className="grid-default-color grid-4">
