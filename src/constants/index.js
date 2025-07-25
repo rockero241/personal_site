@@ -1,7 +1,7 @@
 export const myProjects = [
   {
     id: 1,
-    title: "Secure AI Coding Challenge Generator",
+    title: "Secure Coding Challenge App",
     description:
       "An AI‑powered full‑stack web app that dynamically generates coding challenges and manages user sessions securely.",
     subDescription: [
@@ -66,13 +66,26 @@ export const myProjects = [
   },
 ];
 
+export const mySocials = [
+  {
+    name: "Linkedin",
+    href: "https://www.linkedin.com/in/l0livas/",
+    icon: "/assets/socials/linkedIn.svg",
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/l0livas/",
+    icon: "/assets/socials/instagram.svg",
+  },
+];
+
   export const experiences = [
   {
     title: "Full-Stack Software Engineering Intern",
     job: "AutoZone",
     date: "Jun 2025 – Present",
     contents: [
-      "Developing a full-stack enterprise application using React (frontend), Java Spring Boot (backend), and Oracle 19c.",
+      "Developing a full-stack enterprise application using React, Java Spring Boot, and Oracle DBs.",
       "Deployed app infrastructure to Google Kubernetes Engine (GKE) with Docker containers and Kubernetes orchestration.",
       "Built and presented a business-aligned proof of concept (POC) to AutoZone leadership, demonstrating product-market fit and scalability.",
       "Integrated AI functionality by working with Google Agents and external APIs to augment user experience.",
