@@ -65,3 +65,48 @@ export const myProjects = [
     ],
   },
 ];
+
+  export const experiences = [
+  {
+    title: "Full-Stack Software Engineering Intern",
+    job: "AutoZone",
+    date: "Jun 2025 – Present",
+    contents: [
+      "Developing a full-stack enterprise application using React (frontend), Java Spring Boot (backend), and Oracle 19c.",
+      "Deployed app infrastructure to Google Kubernetes Engine (GKE) with Docker containers and Kubernetes orchestration.",
+      "Built and presented a business-aligned proof of concept (POC) to AutoZone leadership, demonstrating product-market fit and scalability.",
+      "Integrated AI functionality by working with Google Agents and external APIs to augment user experience.",
+      "Collaborating in Agile Scrum sprints with cross-functional teams; contributing to code reviews, planning, and testing.",
+    ],
+  },
+  {
+    title: "Data Structures TA",
+    job: "Berea College",
+    date: "May 2025 – Present",
+    contents: [
+      "Tutoring and mentoring students in C++ Data Structures, including linked lists, trees, and hash tables.",
+      "Guiding students through algorithm design and Big-O analysis to boost understanding and LeetCode prep.",
+      "Provided 1-on-1 support debugging recursive functions, search/sort algorithms, and space/time complexity problems.",
+    ],
+  },
+  {
+    title: "Lead Samsung Experience Consultant",
+    job: "2020 Companies",
+    date: "Feb 2024 – Aug 2024",
+    contents: [
+      "Led a team of consultants, achieving $500K+ in quarterly revenue through training, demos, and performance coaching.",
+      "Oversaw cross-functional execution between Samsung and Best Buy, ensuring brand alignment and high-impact displays.",
+      "Delivered product presentations and customer engagement that improved sales KPIs across the district.",
+    ],
+  },
+  {
+    title: "Regional Sales Representative",
+    job: "ActionLink (Intel)",
+    date: "Mar 2023 – Feb 2024",
+    contents: [
+      "Owned Intel’s product performance across a full territory, increasing sales by 250% through strategy and execution.",
+      "Acted as the on-site Intel SME, training retail staff and handling customer inquiries for technical product decisions.",
+      "Ranked among top-performing reps nationwide by consistently exceeding conversion and attach-rate goals.",
+    ],
+  },
+];
