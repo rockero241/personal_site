@@ -9,18 +9,18 @@ const ProjectDetails = ({
   closeModal,
 }) => {
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-y-auto backdrop-blur-sm p-4">
+      <button
+        onClick={closeModal}
+        className="fixed top-1/2 right-2 -translate-y-1/2 p-3 rounded-full z-50 bg-midnight hover:bg-gray-500 border border-white/20 md:absolute md:top-5 md:right-5 md:translate-y-0 md:rounded-sm md:p-2"
+      >
+        <img src="assets/close.svg" className="w-6 h-6" />
+      </button>
       <motion.div
-        className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
+        className="relative max-w-2xl my-8 border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10 max-h-[85vh] overflow-y-auto"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
       >
-        <button
-          onClick={closeModal}
-          className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500"
-        >
-          <img src="assets/close.svg" className="w-6 h-6" />
-        </button>
         <img src={image} alt={title} className="w-full rounded-t-2xl" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
