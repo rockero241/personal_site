@@ -1,12 +1,39 @@
-# React + Vite
+# 💼 Personal Portfolio — Luis Olivas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated 3D developer portfolio built with React, Vite, TailwindCSS, Three.js, and Framer Motion.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** [lolivas.com](https://lolivas.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔥 3D visuals powered by React Three Fiber and Drei
+- ⚡ Scroll-based animations with Framer Motion
+- 🎨 Responsive UI built with TailwindCSS
+- 💌 Working contact form
+- 🚀 Lightning-fast builds with Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+| Tech | Description |
+|---|---|
+| React | Front-end JavaScript library |
+| Vite | Fast bundler and dev environment |
+| TailwindCSS | Utility-first CSS framework |
+| React Three Fiber | 3D rendering with Three.js in React |
+| Drei | Helpers and abstractions for R3F |
+| Framer Motion | Animation library for React |
+
+## 📁 Project Structure
+
+```
+├── public/
+│   └── assets/             # Images, textures, models
+├── src/
+│   ├── components/         # Reusable components
+│   ├── sections/           # Portfolio sections (Hero, About, Projects, Contact)
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── tailwind.config.js
+└── vite.config.js
+```
